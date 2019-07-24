@@ -8,7 +8,7 @@ function Row(props) {
 
     return (
         <ListItem button style={style} key={index}>
-            <ListItemText primary={`Item ${index + 1}`} />
+            <ListItemText primary={`Address ${index + 1}`} />
         </ListItem>
     );
 }
